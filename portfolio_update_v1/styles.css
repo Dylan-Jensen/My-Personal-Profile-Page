@@ -89,13 +89,13 @@ header .profile-image:hover {
   color: white;
 }
 .card {
-  margin: 30px;
+  margin: auto;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
-  border-radius: 6px;
+  border-radius: 60px;
   transition: all .5s;
 }
 .card:hover {
@@ -204,8 +204,62 @@ a.social:hover {
   }
   .Experience {
     color: blue;
-    
   }
-
+  .coolz {
+  color: rgb(5, 192, 192);
+  font-weight: bold;
+  padding: 10px;
+  }
+  ol {
+    max-width: 350px;
+    counter-reset: my-awesome-counter;
+    list-style: none;
+    padding-left: 40px;
+  }
+  ol li {
+    margin: 0 0 0.5rem 0;
+    counter-increment: my-awesome-counter;
+    position: relative;
+  }
+  ol li::before {
+    content: counter(my-awesome-counter);
+    color:rgb(157, 255, 170);
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: absolute;
+    --size: 24px;
+    left: calc(-1 * var(--size) - 10px);
+    line-height: var(--size);
+    width: var(--size);
+    height: var(--size);
+    top: 0;
+    transform: rotate(-10deg);
+    background: violet;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 1px 1px 0 #999;
+  }
+  header .pro-image {
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+    transition: all .5s;
+  }
+  header .pro-image:hover {
+    transform: scale(1.2) rotate(5deg);
+  }
+  .head-picture {
+    text-align: center;
+    background: url('images/Grand_Canyon.jpg') no-repeat top center ;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 60px;
+  }
+  .head-picture {
+    line-height: 1.5;
+  }
+  
 }
 
