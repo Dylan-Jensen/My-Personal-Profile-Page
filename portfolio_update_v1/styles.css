@@ -89,13 +89,14 @@ header .profile-image:hover {
   color: white;
 }
 .card {
-  margin: auto;
-  padding: 20px 40px 40px;
-  max-width: 500px;
+  margin: 50px;
+  padding: 20px 50px 20px;
+  max-width: auto;
+  max-height: auto;
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
-  border-radius: 60px;
+  border-radius: 90px;
   transition: all .5s;
 }
 .card:hover {
@@ -211,7 +212,7 @@ a.social:hover {
   padding: 10px;
   }
   ol {
-    max-width: 350px;
+    max-width: auto;
     counter-reset: my-awesome-counter;
     list-style: none;
     padding-left: 40px;
@@ -259,6 +260,15 @@ a.social:hover {
   }
   .head-picture {
     line-height: 1.5;
+  }
+  .card2 {
+    margin: auto;
+    padding: 40px 40px 40px;
+    text-align: left;
+    background: #fff;
+    border-bottom: 4px solid #ccc;
+    border-radius: 90px;
+    transition: all .5s;
   }
   
 }
