@@ -95,8 +95,6 @@ header .profile-image:hover {
 .card {
   margin: 50px;
   padding: 20px 50px 20px;
-  max-width: auto;
-  max-height: auto;
   text-align: left;
   background: rgb(255, 247, 216);
   border-bottom: 4px solid #ccc;
@@ -186,8 +184,6 @@ padding: 2px;
 .card2 {
   margin: 50px;
   padding: 20px 50px 20px;
-  max-width: auto;
-  max-height: auto;
   text-align: left;
   background: rgb(255, 236, 236);
   border-bottom: 4px solid #ccc;
@@ -224,8 +220,6 @@ header .profile-image2:hover {
 .card3 {
   margin: 50px;
   padding: 20px 50px 20px;
-  max-width: auto;
-  max-height: auto;
   text-align: left;
   background: rgb(253, 218, 203);
   border-bottom: 4px solid #ccc;
@@ -280,7 +274,6 @@ header .profile-image3:hover {
 }
 
 ol {
-  max-width: auto;
   counter-reset: my-awesome-counter;
   list-style: none;
   padding-left: 40px;
