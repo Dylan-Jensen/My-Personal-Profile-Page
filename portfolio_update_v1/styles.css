@@ -28,6 +28,7 @@ a:active {
 /* Section Styles */
 
 .main-nav {
+  z-index: 1;
   width: 100%;
   background: black;
   min-height: 30px;
@@ -234,7 +235,7 @@ header .profile-image2:hover {
   margin: auto;
   padding: 40px 40px 40px;
   text-align: left;
-  background: #fff;
+  background: rgb(255, 233, 255);
   border-bottom: 4px solid #ccc;
   border-radius: 90px;
   transition: all .5s;
