@@ -78,7 +78,7 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(360deg);
 }
 .tag {
   background-color: #efefef;
@@ -202,11 +202,11 @@ header .profile-image2 {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 5px solid white;
+  border: 5px solid rgb(2, 122, 12);
   transition: all .5s;
 }
 header .profile-image2:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(180deg);
 }
 #background2 {
   text-align: center;
@@ -259,7 +259,7 @@ header .profile-image3 {
   transition: all .5s;
 }
 header .profile-image3:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.4) rotate(-360deg);
 }
 .background3 {
   text-align: center;
