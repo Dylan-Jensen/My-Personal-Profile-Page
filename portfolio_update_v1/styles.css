@@ -177,6 +177,73 @@ color: rgb(5, 192, 192);
 font-weight: bold;
 padding: 10px;
 }
+.card2 {
+  margin: 50px;
+  padding: 20px 50px 20px;
+  max-width: auto;
+  max-height: auto;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 90px;
+  transition: all .5s;
+}
+.card2:hover {
+  border-color: #00f7ff;
+}
+header .pro-image {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid white;
+  transition: all .5s;
+}
+header .pro-image:hover {
+  transform: scale(1.2) rotate(5deg);
+}
+.head-picture {
+  text-align: center;
+  background: url('images/Grand_Canyon.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+.head-picture {
+  line-height: 1.5;
+}
+
+/* hobbies page styles */
+
+.card3 {
+  margin: 50px;
+  padding: 20px 50px 20px;
+  max-width: auto;
+  max-height: auto;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 90px;
+  transition: all .5s;
+}
+.card3:hover {
+  border-color: #ff99ff;
+}
+
+.card4 {
+  margin: auto;
+  padding: 40px 40px 40px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 90px;
+  transition: all .5s;
+}
+
+.card4:hover {
+  border-color: #ff0000;
+}
+
 ol {
   max-width: auto;
   counter-reset: my-awesome-counter;
@@ -206,38 +273,6 @@ ol li::before {
   text-align: center;
   box-shadow: 1px 1px 0 #999;
 }
-header .pro-image {
-  margin-top: 50px;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: 5px solid white;
-  transition: all .5s;
-}
-header .pro-image:hover {
-  transform: scale(1.2) rotate(5deg);
-}
-.head-picture {
-  text-align: center;
-  background: url('images/Grand_Canyon.jpg') no-repeat top center ;
-  background-size: cover;
-  overflow: hidden;
-  padding-top: 60px;
-}
-.head-picture {
-  line-height: 1.5;
-}
-.card2 {
-  margin: auto;
-  padding: 40px 40px 40px;
-  text-align: left;
-  background: #fff;
-  border-bottom: 4px solid #ccc;
-  border-radius: 90px;
-  transition: all .5s;
-}
-
-
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
