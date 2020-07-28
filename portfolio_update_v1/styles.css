@@ -17,10 +17,14 @@ a {
   text-decoration: none;
   color: #999;
 }
+
 a:hover {
-  color: #6633ff;
+  color: #ff0000;
 }
 
+a:active {
+  color: green;
+}
 /* Section Styles */
 
 .main-nav {
@@ -70,7 +74,7 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px solid rgb(0, 0, 0);
   transition: all .5s;
 }
 header .profile-image:hover {
@@ -94,13 +98,18 @@ header .profile-image:hover {
   max-width: auto;
   max-height: auto;
   text-align: left;
-  background: #fff;
+  background: rgb(255, 247, 216);
   border-bottom: 4px solid #ccc;
   border-radius: 90px;
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #ffd45d;
+}
+
+.experience {
+  color: blue;
+  padding: 2px;
 }
 
 ul.skills {
@@ -169,13 +178,10 @@ a.social:hover {
 }
 
 /* experience page styles */
-.Experience {
-  color: blue;
-}
-.coolz {
-color: rgb(5, 192, 192);
+.cdo {
+color: blue;
 font-weight: bold;
-padding: 10px;
+padding: 2px;
 }
 .card2 {
   margin: 50px;
@@ -191,7 +197,7 @@ padding: 10px;
 .card2:hover {
   border-color: #00f7ff;
 }
-header .pro-image {
+header .profile-image2 {
   margin-top: 50px;
   width: 150px;
   height: 150px;
@@ -199,17 +205,17 @@ header .pro-image {
   border: 5px solid white;
   transition: all .5s;
 }
-header .pro-image:hover {
+header .profile-image2:hover {
   transform: scale(1.2) rotate(5deg);
 }
-.head-picture {
+#background2 {
   text-align: center;
-  background: url('images/Grand_Canyon.jpg') no-repeat top center ;
+  background: url('EDL105-Coding.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
 }
-.head-picture {
+#background2 {
   line-height: 1.5;
 }
 
@@ -227,7 +233,7 @@ header .pro-image:hover {
   transition: all .5s;
 }
 .card3:hover {
-  border-color: #ff99ff;
+  border-color: #b700ff;
 }
 
 .card4 {
@@ -241,7 +247,36 @@ header .pro-image:hover {
 }
 
 .card4:hover {
-  border-color: #ff0000;
+  border-color: #b700ff;
+}
+
+header .profile-image3 {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid white;
+  transition: all .5s;
+}
+header .profile-image3:hover {
+  transform: scale(1.2) rotate(5deg);
+}
+.background3 {
+  text-align: center;
+  background: url('hobby-jumbo.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+
+.background3 {
+  line-height: 1.5;
+}
+
+.canyon {
+  color: blue;
+  font-weight: bold;
+  padding: 2px;
 }
 
 ol {
